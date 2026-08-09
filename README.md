@@ -1,82 +1,123 @@
 # MAMBO PROJECT
 
+> «A small collection of Roblox scripts, built for fun, experimentation, and questionable amounts of free time.»
+
 ---
 
 ## 🇻🇳 Tiếng Việt
 
 ### Giới thiệu
 
-**MAMBO PROJECT** là một dự án làm cho vui – nếu bạn không thấy vui, hãy đợi khi nào vui thì quay lại nhé.
-Dự án được tạo ra bởi một kẻ vô danh tiểu tốt, chỉ đơn giản là có chút hứng thú để làm thôi.
+**MAMBO PROJECT** là một dự án cá nhân được tạo ra chủ yếu để giải trí, thử nghiệm và… vì tác giả tự nhiên muốn code.
+
+Không có studio lớn đứng sau, không có đội ngũ hàng chục người, cũng chẳng có kế hoạch IPO. Chỉ có một kẻ vô danh với một chút kiến thức, một chút thời gian rảnh và khá nhiều ý tưởng linh tinh.
+
+Dự án có thể được cập nhật, thay đổi hoặc xuất hiện thêm những thứ khá khó hiểu bất cứ lúc nào.
 
 ---
 
-### Danh sách Scripts
+## Scripts
 
-Dưới đây là các script hiện có trong kho lưu trữ. Bạn có thể thực thi chúng bằng đoạn code tương ứng.
+Dưới đây là danh sách các script hiện có trong repository.
 
-#### Youtube Player
+### 🎵 Youtube Player
 
-- **Mô tả**: Trình phát nhạc YouTube trong Roblox (tải nhạc từ YouTube và phát trong game).
-- **Execute this script**:
-  ```lua
-  loadstring(game:HttpGet("https://raw.githubusercontent.com/HaTapLamScript/MAMBO_PROJECT/main/Youtube_player.lua"))()
-  ```
+**Mô tả:**  
+Trình phát nhạc YouTube dành cho Roblox, cho phép tải và phát audio từ YouTube trực tiếp trong game.
 
----
+**Execute:**
 
-#### Aimlock
-
-- **Mô tả**: Hỗ trợ ngắm tự động (aimlock) cho các game PvP/PvE.
-- **Execute this script**:
-  ```lua
-  loadstring(game:HttpGet("https://raw.githubusercontent.com/HaTapLamScript/MAMBO_PROJECT/main/Aimlock.lua"))()
-  ```
+```lua
+loadstring(game:HttpGet("https://raw.githubusercontent.com/HaTapLamScript/MAMBO_PROJECT/main/Youtube_player.lua"))()
+```
 
 ---
 
-#### R6 FAKE VR (Open Source)
+### 🎯 Aimlock
 
-- **Mô tả**: Đây là mã nguồn mở (Open Source) – bạn được khuyến khích tải về, nghiên cứu và chỉnh sửa tùy ý.
-- **Lưu ý quan trọng**:
-  Logic hiện tại vẫn chưa thực sự ổn định. Script này hoạt động tốt nhất tại tựa game sau:
+**Mô tả:**  
+Script hỗ trợ aimlock dành cho các tựa game PvP/PvE.
 
-  https://www.roblox.com/games/123974602339071/Title-Unavailable
+**Execute:**
 
-- **Execute this script**:
-  ```lua
-  loadstring(game:HttpGet("https://raw.githubusercontent.com/HaTapLamScript/MAMBO_PROJECT/refs/heads/main/R6%20FAKE%20VR%20(Open%20Source).lua"))()
-  ```
+```lua
+loadstring(game:HttpGet("https://raw.githubusercontent.com/HaTapLamScript/MAMBO_PROJECT/main/Aimlock.lua"))()
+```
 
 ---
 
-#### DayCornTheSon2 (Daycare the story 2)
+### 🥽 R6 FAKE VR — Open Source
 
-- **Mô tả**: Best OP script (ez win).
-- **Execute this script**:
-  ```lua
-  loadstring(game:HttpGet("https://raw.githubusercontent.com/HaTapLamScript/MAMBO_PROJECT/refs/heads/main/DayCornTheSon2.lua"))()
-  ```
+**Mô tả:**  
+Một project **Open Source**, được công khai nhằm mục đích nghiên cứu, học tập và tùy chỉnh.
+
+Bạn hoàn toàn có thể tải source về, đọc code, chỉnh sửa hoặc biến nó thành một thứ gì đó còn kỳ quặc hơn bản gốc.
+
+**⚠️ Lưu ý:**
+
+Logic hiện tại vẫn đang trong quá trình hoàn thiện và chưa được xem là hoàn toàn ổn định.
+
+Script hoạt động tốt nhất trên tựa game sau:
+
+https://www.roblox.com/games/123974602339071/Title-Unavailable
+
+**Execute:**
+
+```lua
+loadstring(game:HttpGet("https://raw.githubusercontent.com/HaTapLamScript/MAMBO_PROJECT/refs/heads/main/R6%20FAKE%20VR%20(Open%20Source).lua"))()
+```
 
 ---
 
-#### TSB Antilag!
+### 🏠 DayCornTheSon2 — Daycare the Story 2
 
-- **Thông báo quan trọng**:
-  Script này đã bị mất source, vì vậy sẽ không nhận được bất kỳ bản cập nhật nào trong tương lai.
-  Nó sẽ được giữ lại cho đến khi không còn hoạt động ổn định; sau đó sẽ bị gỡ bỏ để phát triển phiên bản thay thế.
+**Mô tả:**  
+Một script được xây dựng với triết lý rất đơn giản:
 
-- **Execute this script**:
-  ```lua
-  loadstring(game:HttpGet("https://raw.githubusercontent.com/HaTapLamScript/MAMBO_PROJECT/refs/heads/main/TSB%20antilag!.lua"))()
-  ```
+> «Best OP script. EZ win.»
+
+Không cần giải thích quá nhiều. Cứ dùng rồi tự hiểu.
+
+**Execute:**
+
+```lua
+loadstring(game:HttpGet("https://raw.githubusercontent.com/HaTapLamScript/MAMBO_PROJECT/refs/heads/main/DayCornTheSon2.lua"))()
+```
 
 ---
 
-### Lưu ý chung
+### ⚡ TSB Antilag!
 
-- Tất cả script sẽ được cập nhật ngẫu nhiên (tùy hứng của tôi :)).
-- Hãy sử dụng cẩn thận, khoá tài khoản thì đừng khóc :).
+**Trạng thái:** `Legacy / Discontinued`
+
+**⚠️ Thông báo quan trọng:**
+
+Source code của script này hiện đã bị mất. Vì vậy, **TSB Antilag! sẽ không nhận thêm bất kỳ bản cập nhật nào trong tương lai.**
+
+Script sẽ tiếp tục được giữ lại trong repository miễn là nó còn hoạt động ổn định.
+
+Khi script không còn hoạt động đúng cách hoặc trở nên quá lỗi thời, nó sẽ được gỡ bỏ để nhường chỗ cho một phiên bản thay thế.
+
+Nói ngắn gọn:
+
+> **Nó vẫn còn sống. Nhưng đừng kỳ vọng nó sống mãi.**
+
+**Execute:**
+
+```lua
+loadstring(game:HttpGet("https://raw.githubusercontent.com/HaTapLamScript/MAMBO_PROJECT/refs/heads/main/TSB%20antilag!.lua"))()
+```
+
+---
+
+## ⚠️ General Notes
+
+- Vì làm cho vui nên chất lượng của các script là không **"ổn định và giống nhau"**.
+- Các script có thể được cập nhật không theo một lịch trình cố định.
+- Một số bản cập nhật sẽ xuất hiện khi tác giả có thời gian, có hứng hoặc đơn giản là… tự nhiên muốn sửa.
+- Tính ổn định có thể thay đổi tùy game, executor và phiên bản Roblox.
+- Hãy sử dụng cẩn thận! **Khuyến khích dùng tài khoản phụ.**
+- Nếu tài khoản gặp vấn đề (bị cấm) do việc sử dụng script, đừng quay lại tìm tác giả để đòi bồi thường bằng nước mắt.
 
 ---
 
@@ -84,79 +125,131 @@ Dưới đây là các script hiện có trong kho lưu trữ. Bạn có thể t
 
 ### Introduction
 
-**MAMBO PROJECT** is a fun little project – if you're not having fun, come back later when you are.
-It's made by a nobody who just felt like coding something for the sake of it.
+**MAMBO PROJECT** is a personal project created primarily for fun, experimentation, and… because the author suddenly felt like coding.
+
+There is no big studio behind it, no team of dozens of developers, and certainly no IPO plans. Just an anonymous developer with a bit of knowledge, some free time, and quite a lot of random ideas.
+
+The project may be updated, changed, or gain something unexpectedly questionable at any time.
 
 ---
 
-### Scripts List
+## Scripts
 
-Below are the scripts currently available in this repository. Execute them using the corresponding script.
+Below is the current list of scripts available in the repository.
 
-#### Youtube Player
+### 🎵 Youtube Player
 
-- **Description**: A YouTube music player for Roblox (fetches audio from YouTube and plays it in-game).
-- **Execute this script**:
-  ```lua
-  loadstring(game:HttpGet("https://raw.githubusercontent.com/HaTapLamScript/MAMBO_PROJECT/main/Youtube_player.lua"))()
-  ```
+**Description:**  
+A YouTube music player for Roblox that allows audio to be fetched from YouTube and played directly in-game.
 
----
+**Execute:**
 
-#### Aimlock
-
-- **Description**: Auto-aim support for PvP/PvE games.
-- **Execute this script**:
-  ```lua
-  loadstring(game:HttpGet("https://raw.githubusercontent.com/HaTapLamScript/MAMBO_PROJECT/main/Aimlock.lua"))()
-  ```
+```lua
+loadstring(game:HttpGet("https://raw.githubusercontent.com/HaTapLamScript/MAMBO_PROJECT/main/Youtube_player.lua"))()
+```
 
 ---
 
-#### R6 FAKE VR (Open Source)
+### 🎯 Aimlock
 
-- **Description**: This is Open Source – feel free to download, study, and modify it as you like.
-- **Important note**:
-  The current logic is not yet fully stable. This script works best on this specific game:
+**Description:**  
+An aimlock utility for PvP/PvE games.
 
-  https://www.roblox.com/games/123974602339071/Title-Unavailable
+**Execute:**
 
-- **Execute this script**:
-  ```lua
-  loadstring(game:HttpGet("https://raw.githubusercontent.com/HaTapLamScript/MAMBO_PROJECT/refs/heads/main/R6%20FAKE%20VR%20(Open%20Source).lua"))()
-  ```
+```lua
+loadstring(game:HttpGet("https://raw.githubusercontent.com/HaTapLamScript/MAMBO_PROJECT/main/Aimlock.lua"))()
+```
 
 ---
 
-#### DayCornTheSon2 (Daycare the story 2)
+### 🥽 R6 FAKE VR — Open Source
 
-- **Description**: Best OP script (ez win).
-- **Execute this script**:
-  ```lua
-  loadstring(game:HttpGet("https://raw.githubusercontent.com/HaTapLamScript/MAMBO_PROJECT/refs/heads/main/DayCornTheSon2.lua"))()
-  ```
+**Description:**  
+An **Open Source** project released for learning, experimentation, and customization.
 
----
+Feel free to download the source, inspect the code, modify it, or turn it into something even more questionable than the original.
 
-#### TSB Antilag!
+**⚠️ Important Note:**
 
-- **Important notice**:
-  The source code for this script has been lost, so no future updates will be provided.
-  It will remain available until it stops working reliably; after that, it will be removed to make way for a replacement version.
+The current logic is still under development and should not be considered fully stable.
 
-- **Execute this script**:
-  ```lua
-  loadstring(game:HttpGet("https://raw.githubusercontent.com/HaTapLamScript/MAMBO_PROJECT/refs/heads/main/TSB%20antilag!.lua"))()
-  ```
+The script currently works best with the following game:
 
----
+https://www.roblox.com/games/123974602339071/Title-Unavailable
 
-### General Notes
+**Execute:**
 
-- All scripts are updated randomly (whenever I feel like it :)).
-- Use with caution – if your account gets banned, don't cry :).
+```lua
+loadstring(game:HttpGet("https://raw.githubusercontent.com/HaTapLamScript/MAMBO_PROJECT/refs/heads/main/R6%20FAKE%20VR%20(Open%20Source).lua"))()
+```
 
 ---
 
-**Happy scripting!**
-— A nobody with a bit of free time.
+### 🏠 DayCornTheSon2 — Daycare the Story 2
+
+**Description:**  
+A script built around one very simple philosophy:
+
+> «Best OP script. EZ win.»
+
+No further explanation required. Use it and find out.
+
+**Execute:**
+
+```lua
+loadstring(game:HttpGet("https://raw.githubusercontent.com/HaTapLamScript/MAMBO_PROJECT/refs/heads/main/DayCornTheSon2.lua"))()
+```
+
+---
+
+### ⚡ TSB Antilag!
+
+**Status:** `Legacy / Discontinued`
+
+**⚠️ Important Notice:**
+
+The source code for this script has been lost. As a result, **TSB Antilag! will not receive any future updates.**
+
+It will remain available in the repository as long as it continues to function reliably.
+
+Once it stops working properly or becomes too outdated, it will be removed to make way for a replacement version.
+
+In short:
+
+> **It is still alive. But don't expect it to live forever.**
+
+**Execute:**
+
+```lua
+loadstring(game:HttpGet("https://raw.githubusercontent.com/HaTapLamScript/MAMBO_PROJECT/refs/heads/main/TSB%20antilag!.lua"))()
+```
+
+---
+
+## ⚠️ General Notes
+
+- Since this project is made for fun, the quality of the scripts is not necessarily **"consistent or equally stable"**.
+- Scripts may be updated without a fixed schedule.
+- Some updates may appear when the author has time, motivation, or simply… randomly decides to fix something.
+- Stability may vary depending on the game, executor, and Roblox version.
+- Use with caution! **Using an alternate account is recommended.**
+- If your account gets into trouble (including a ban) due to using a script, please don't come back looking for compensation in the form of tears.
+
+---
+
+## Final Words
+
+**MAMBO PROJECT** is, at its core, just a collection of things made because someone thought:
+
+> *“Hmm… I wonder if I can make this.”*
+
+Sometimes it works.  
+Sometimes it breaks.  
+Sometimes the bugs simply become features.
+
+Either way, welcome to **MAMBO PROJECT**.
+
+**Happy scripting.**
+
+— *A nobody with some free time.*
