@@ -86,21 +86,22 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/HaTapLamScript/MAMBO_
 
 ---
 
-### ⚡ TSB Antilag!
+### ⚡ TSB Antilag! — Remake
 
-**Trạng thái:** `Legacy / Discontinued`
+**Trạng thái:** `Active / Remake`
 
-**⚠️ Thông báo quan trọng:**
+**Mô tả:**  
+TSB Antilag! đã được **xây dựng lại hoàn toàn** và chính thức thay thế phiên bản cũ.
 
-Source code của script này hiện đã bị mất. Vì vậy, **TSB Antilag! sẽ không nhận thêm bất kỳ bản cập nhật nào trong tương lai.**
+Phiên bản mới được thiết kế theo hướng nhẹ hơn, tối ưu hơn và phù hợp hơn với việc sử dụng lâu dài.
 
-Script sẽ tiếp tục được giữ lại trong repository miễn là nó còn hoạt động ổn định.
+Logic dọn dẹp được cải thiện và có khả năng **điều chỉnh theo FPS** để hạn chế tác động không cần thiết đến hiệu năng.
 
-Khi script không còn hoạt động đúng cách hoặc trở nên quá lỗi thời, nó sẽ được gỡ bỏ để nhường chỗ cho một phiên bản thay thế.
+Ngoài ra, phiên bản remake còn tích hợp các tùy chọn **FFlags** nhằm cung cấp thêm khả năng tinh chỉnh hiệu năng.
 
 Nói ngắn gọn:
 
-> **Nó vẫn còn sống. Nhưng đừng kỳ vọng nó sống mãi.**
+> **Bản cũ đã nghỉ hưu. Bản mới lên thay.**
 
 **Execute:**
 
@@ -112,7 +113,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/HaTapLamScript/MAMBO_
 
 ## ⚠️ General Notes
 
-- Vì làm cho vui nên chất lượng của các script là không **"ổn định và giống nhau"**.
+- Vì làm cho vui nên chất lượng và độ ổn định của các script có thể không đồng đều.
 - Các script có thể được cập nhật không theo một lịch trình cố định.
 - Một số bản cập nhật sẽ xuất hiện khi tác giả có thời gian, có hứng hoặc đơn giản là… tự nhiên muốn sửa.
 - Tính ổn định có thể thay đổi tùy game, executor và phiên bản Roblox.
@@ -203,21 +204,22 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/HaTapLamScript/MAMBO_
 
 ---
 
-### ⚡ TSB Antilag!
+### ⚡ TSB Antilag! — Remake
 
-**Status:** `Legacy / Discontinued`
+**Status:** `Active / Remake`
 
-**⚠️ Important Notice:**
+**Description:**  
+TSB Antilag! has been **completely rebuilt from the ground up** and officially replaces the previous version.
 
-The source code for this script has been lost. As a result, **TSB Antilag! will not receive any future updates.**
+The new version is designed to be lighter, better optimized, and more suitable for long-term use.
 
-It will remain available in the repository as long as it continues to function reliably.
+Its cleanup logic has been improved and can **adapt to the current FPS** to reduce unnecessary performance impact.
 
-Once it stops working properly or becomes too outdated, it will be removed to make way for a replacement version.
+The remake also includes optional **FFlags** for additional performance tuning.
 
 In short:
 
-> **It is still alive. But don't expect it to live forever.**
+> **The old version retired. The remake took over.**
 
 **Execute:**
 
@@ -229,7 +231,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/HaTapLamScript/MAMBO_
 
 ## ⚠️ General Notes
 
-- Since this project is made for fun, the quality of the scripts is not necessarily **"consistent or equally stable"**.
+- Since this project is made for fun, the quality and stability of the scripts may vary.
 - Scripts may be updated without a fixed schedule.
 - Some updates may appear when the author has time, motivation, or simply… randomly decides to fix something.
 - Stability may vary depending on the game, executor, and Roblox version.
